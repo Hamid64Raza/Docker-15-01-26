@@ -12,4 +12,9 @@ public class HelloController {
     public String health() {
         return "Application is running successfully!";
     }
+
+    @GetMapping("/test")
+    public String test(){
+        return "This is testing api endpoint";
+    }
 }
